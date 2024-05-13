@@ -1,0 +1,13 @@
+/*==== google font ====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+:root {
+    --body-color: #ffffff; /* Change to your desired background color */
+    --z-fixed: 1000; /* Change to your desired z-index value */
+    --header-height: 60px; /* Change to your desired header height */
+  }
+  
+    
+/* ----------Header and navbar -------*/
+
