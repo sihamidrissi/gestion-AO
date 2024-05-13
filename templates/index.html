@@ -15,7 +15,7 @@
             --header-height: 3.5rem;
 
 /*========== Colors ==========*/
-/*Color mode HSL(hue, saturation, lightness)*/
+
 --first-color: hsl(230, 75%, 56%);
 --title-color: hsl(230, 75%, 15%);
 --text-color: hsl(230, 12%, 40%);
@@ -24,7 +24,7 @@
 --border-color: hsl(230, 25%, 80%);
 
 /*========== Font and typography ==========*/
-/*.5rem = 8px | 1rem = 16px ...*/
+
 --body-font: "Syne", sans-serif;
 --h2-font-size: 1.25rem;
 --normal-font-size: .938rem;
@@ -133,7 +133,11 @@
                 box-shadow: 0 8px 16px hsla(230, 75%, 32%, .15);
                 padding: 20px 0;
                 z-index: 1000; 
+                
             }
+
+            
+            
 
             .nav--menu{
                 position:fixed;
@@ -229,9 +233,9 @@
         }
         .login--group input[type="email"],
         .login--group input[type="password"] {
-           width: 100%; /* Adjust this value as needed */
-           max-width: 350px; /* Adjust this value as needed */
-           margin: 0 auto; /* Center the fields */
+           width: 100%; 
+           max-width: 350px; 
+           margin: 0 auto; 
              }
 
         .login--title
@@ -430,7 +434,7 @@
        <div class="login" id="login">
 
         <form action="" class="login--form">
-            <h2 class="login--title">Log In</h2>
+            <h2 class="login--title">Se connecter</h2>
             <div class="login--group">
                 <div>
                     <label for="email" class="login--label">Email</label>
@@ -438,16 +442,16 @@
                 </div>
   
                 <div>
-                    <label for="password" class="login--label">Password</label>
+                    <label for="password" class="login--label">Mot de passe</label>
                     <input type="password" placeholder="Saisir votre mot de passe" id="password" class="login--input">
                 </div>
             </div>
             <div>
                 <p class="login--signup">
-                  You de have an account? <a href="#">Sign up</a>
+                    Vous n'avez pas encore de compte <a href="#">S'inscrire</a>
                   
                 </p>
-                <a href="#" class="login--forgot">You forgot your password</a>
+                <a href="#" class="login--forgot">Mot de passe oublié?</a>
                 <button type="submit" class="login--button">Log In</button>
             </div>
         </form>
